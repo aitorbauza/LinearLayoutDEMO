@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="50"
+        android:text="Fifty Percent"
+        android:textSize="100dp"
+        app:cornerRadius="250dp" />
+    <Button
+        android:text="Thirty Percent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="30"
+        android:textSize="100dp"
+        app:cornerRadius="250dp"
+        />
+    <Button
+        android:text="Twenty Percent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="20"
+        android:textSize="100dp"
+        app:cornerRadius="250dp"
+        />
+</LinearLayout> 
